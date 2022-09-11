@@ -10,7 +10,6 @@ body {
     rgba(33, 33, 33, 1) 100%
   );
 }
-
 h1,
 h2,
 p {
@@ -56,14 +55,70 @@ p {
   font-weight: 800;
   font-size: 25px;
 }
-.nav-item {
-  font-family: var(--heading-font-family);
-  font-size: 16px;
-}
 .content {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 .img-fluid {
   height: 280px;
+}
+
+footer a {
+  color: white;
+  font-size: 20px;
+  margin: 0 20px;
+}
+footer a:hover {
+  color: rgba(255, 255, 255, 0.525);
+}
+footer {
+  background-color: #282323;
+  padding: 40px 50px;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    margin-top: 5px;
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 1px;
+  }
+  h1 {
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 10px;
+    letter-spacing: 6px;
+  }
+  p {
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0;
+    margin-top: 0;
+  }
+  .btn-branding {
+    font-size: 5px;
+    padding: 2px 0;
+    width: 80px;
+    letter-spacing: 0;
+    margin-top: -39px !important;
+  }
+  .navbar-brand img {
+    width: 75px;
+  }
+  .content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .img-fluid {
+    margin-bottom: 20px;
+  }
+  .content .row {
+    margin: 0 !important;
+  }
+  footer {
+    padding: 10px 15px;
+  }
+  .social-links {
+    margin-bottom: 15px;
+  }
 }
