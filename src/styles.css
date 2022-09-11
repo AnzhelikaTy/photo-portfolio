@@ -62,4 +62,8 @@ p {
 }
 .content {
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+.img-fluid {
+  height: 280px;
 }
