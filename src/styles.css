@@ -77,15 +77,18 @@ footer {
 }
 
 @media (max-width: 576px) {
+  .card-img-overlay {
+    padding-top: 0;
+  }
   h2 {
-    margin-top: 5px;
+    margin-top: 85px;
     font-size: 9px;
     line-height: 10px;
     letter-spacing: 1px;
   }
   h1 {
     font-size: 15px;
-    margin-top: 0;
+    margin-top: 12px;
     line-height: 10px;
     letter-spacing: 6px;
   }
@@ -93,7 +96,7 @@ footer {
     font-size: 10px;
     line-height: 15px;
     letter-spacing: 0;
-    margin-top: 0;
+    margin-top: 10px;
   }
   .btn-branding {
     font-size: 5px;
