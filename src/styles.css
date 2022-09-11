@@ -10,6 +10,7 @@ body {
     rgba(33, 33, 33, 1) 100%
   );
 }
+
 h1,
 h2,
 p {
@@ -19,18 +20,22 @@ h1 {
   font-weight: 700;
   font-size: 72px;
   line-height: 84px;
-  margin-top: 70px;
+  margin-top: 20px;
+  letter-spacing: 10px;
 }
 h2 {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
-  margin-top: 175px;
+  margin-top: 240px;
+  letter-spacing: 3px;
 }
 p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  margin-top: 25px;
+  letter-spacing: 3px;
 }
 .btn-branding {
   background-color: white;
@@ -40,7 +45,18 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
+  letter-spacing: 3px;
 }
 .btn-branding:hover {
   background-color: rgba(255, 255, 255, 0.549) !important;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: 25px;
+}
+.nav-item {
+  font-family: var(--heading-font-family);
+  font-size: 16px;
 }
