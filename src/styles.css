@@ -29,6 +29,11 @@ h2 {
   margin-top: 300px;
   letter-spacing: 3px;
 }
+h3 {
+  color: #f65282;
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+}
 p {
   font-weight: 400;
   font-size: 18px;
@@ -59,10 +64,17 @@ p {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.img-fluid {
+.hero .img-fluid {
   height: 280px;
 }
-
+.camera {
+  display: inline;
+  background-color: #282323;
+  padding: 20px;
+}
+.content .img-fluid {
+  height: 280px;
+}
 footer a {
   color: white;
   font-size: 20px;
@@ -80,17 +92,17 @@ footer {
   .card-img-overlay {
     padding-top: 0;
   }
-  h2 {
-    margin-top: 100px;
-    font-size: 9px;
-    line-height: 10px;
-    letter-spacing: 1px;
-  }
   h1 {
     font-size: 15px;
     margin-top: 12px;
     line-height: 10px;
     letter-spacing: 6px;
+  }
+  h2 {
+    margin-top: 100px;
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 1px;
   }
   p {
     font-size: 10px;
@@ -112,12 +124,13 @@ footer {
     margin-top: 20px;
     margin-bottom: 10px;
   }
-  .img-fluid {
-    margin-bottom: 20px;
-  }
   .content .row {
     margin: 0 !important;
   }
+  .hero .img-fluid {
+    margin-bottom: 20px;
+  }
+
   footer {
     padding: 10px 15px;
   }
