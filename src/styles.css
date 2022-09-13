@@ -96,6 +96,30 @@ footer {
   padding: 40px 50px;
 }
 
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 65px;
+    line-height: 84px;
+    margin-top: 10px;
+    letter-spacing: 7px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 250px;
+    letter-spacing: 2px;
+  }
+  p {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
 @media (max-width: 576px) {
   .card-img-overlay {
     padding-top: 0;
