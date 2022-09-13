@@ -176,11 +176,9 @@ footer {
     text-align: center;
   }
 }
-@media only screen and (max-width: 900px),
-  (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape),
-  (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+@media (max-width: 900px) {
   h2 {
-    margin-top: 100px;
+    margin-top: 145px;
     font-size: 18px;
     letter-spacing: 1px;
   }
@@ -206,5 +204,9 @@ footer {
   .hero .img-fluid {
     width: 100%;
     height: auto;
+    margin-top: 20px;
+  }
+  .content .row {
+    margin: 0 !important;
   }
 }
