@@ -95,10 +95,21 @@ footer {
   background-color: #282323;
   padding: 40px 50px;
 }
-@media (max-width: 1400px) {
+@media only screen and (min-width: 1200px) {
+  h2 {
+    margin-top: 250px;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  p {
+    margin-top: 0;
+  }
+  .btn-branding {
+    margin-top: 0 !important;
+  }
 }
 
-@media only screen and (min-width: 577px) and (max-width: 900px) {
+@media only screen and (min-width: 800px) {
   h2 {
     margin-top: 150px;
     font-size: 18px;
@@ -133,7 +144,7 @@ footer {
   }
 }
 
-@media (max-width: 576px) {
+@media only screen and (max-device-width: 480px) {
   .card-img-overlay {
     padding-top: 0;
   }
