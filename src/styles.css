@@ -176,3 +176,35 @@ footer {
     text-align: center;
   }
 }
+@media only screen and (max-width: 900px),
+  (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape),
+  (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  h2 {
+    margin-top: 145px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  h1 {
+    font-size: 28px;
+    margin-top: -24px;
+  }
+  p {
+    font-size: 16px;
+    margin-top: -24px;
+  }
+  .btn-branding {
+    font-size: 10px;
+    padding: 8px 0;
+    width: 100px;
+    letter-spacing: 0;
+    margin-top: -28px !important;
+  }
+  .content {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .hero .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+}
