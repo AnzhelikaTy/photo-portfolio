@@ -96,18 +96,11 @@ footer {
   padding: 40px 50px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1201px) {
   h1 {
-    font-size: 65px;
-    line-height: 84px;
-    margin-top: 10px;
-    letter-spacing: 7px;
+    margin-top: -15px;
   }
   h2 {
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 250px;
-    letter-spacing: 2px;
     margin-top: 200px;
   }
   p {
@@ -116,7 +109,6 @@ footer {
   }
   .btn-branding {
     margin-top: 0 !important;
-    padding: 10px 10px;
   }
 }
 
