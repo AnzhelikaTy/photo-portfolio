@@ -98,9 +98,16 @@ footer {
 
 @media (max-width: 1200px) {
   h1 {
+    font-size: 65px;
     line-height: 84px;
+    margin-top: 10px;
+    letter-spacing: 7px;
   }
   h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 250px;
+    letter-spacing: 2px;
     margin-top: 200px;
   }
   p {
@@ -109,7 +116,7 @@ footer {
   }
   .btn-branding {
     margin-top: 0 !important;
-    padding: ;
+    padding: 10px 10px;
   }
 }
 
@@ -172,7 +179,7 @@ footer {
     margin: 0 !important;
   }
   .content {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 10px;
   }
 }
