@@ -96,7 +96,7 @@ footer {
   padding: 40px 50px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media (max-width: 576px) {
   .card-img-overlay {
     padding-top: 0;
   }
