@@ -96,7 +96,7 @@ footer {
   padding: 40px 50px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   h1 {
     font-size: 65px;
     line-height: 84px;
@@ -116,10 +116,6 @@ footer {
   }
 }
 
-@media (max-width: 992px) {
-}
-@media (max-width: 768px) {
-}
 @media (max-width: 576px) {
   .card-img-overlay {
     padding-top: 0;
