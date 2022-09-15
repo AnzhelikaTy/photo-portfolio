@@ -64,6 +64,7 @@ p {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
+  color: #272142;
 }
 .btn-branding:hover {
   background-color: rgba(255, 255, 255, 0.549) !important;
